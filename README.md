@@ -33,18 +33,29 @@ A continuación solo deberá introducir el numeral de la instrucción que quiere
 
 ### 1.Cargar archivo de configuracion y datos de pacientes ###
 Carga todos los archivos necesarios para inicializar la base de datos y estructuras internas.
+Para probar que funciona perfectamente te debe aparecer un texto asi: "Los datos se guardaron correctamente", y se imprimiran las configuaciones guardadas. 
 
 ### 2.Leer archivo .bsf ###
 Lee el Archivo Binario donde se encuentra toda la información de las lecturas de los pacientes.
+Para comprobar que funciona correctamente te debe aparecer en consola: 
+"El archivo se leyo correctamente"
 
 ### 3.Generar reporte de anomalias  ###
 Crea un archivo llamdado "anomalias.txt" donde se encuentran las lecturas anómalas (excepto ECG), de **TODOS LOS PACIENTES** agrupadas por paciente y por orden cronologico.
 
+Si te aparece: Reporte anomalias generado
+Es porque funciono perfecto.
+
 ### 4.Calcular estadisticas ###
 Solicita el ID algún paciente (En numero entero) y genera un archivo llamado "mediciones_paciente_<ID>.txt" (<ID> es el numero que ingresaste anteriormente) con sus lecturas ordenadas y clasificadas. (Debes de saber el ID del paciente al cual quieras generar el reporte)
 
+Si te aparece en el teminal un texto como este: Reporte Renerado en: mediciones_paciente_(idpaciente).txt
+Es porque funciona perfecto :3}
+
 ### 5. Exportar datos procesados ###
 Detecta pacientes con lecturas ECG fuera de los rangos normales y los exporta a un archivo llamado "pacientes_ecg_anomalos.dat." este archivo no se podrá leer normalmente porque es un archivo de tipo **Binario**.
+
+Para comprobar que es correcto te debe aparecer un texto asi: archivo ANOMALIAS ECG generado.
 
 ### 6. Salir ###
 Finaliza la ejecución del programa.
