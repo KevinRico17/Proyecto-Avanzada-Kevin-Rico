@@ -13,7 +13,7 @@ Proyecto/ <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  └── patient_readings_simulation.bsf <br>
 ├── libs/ <br>
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; └── Nuevas_Estructuras.hh <br>
-├── Proyecto_KR.cpp <br>
+├── Proyecto_avanzada.cpp <br>
 
 Los archivos los podrá encontrar en la carpeta de: "ARCHIVOS PROYECTO", asegurese de que los archivos tengan los nombres correctos.
 
