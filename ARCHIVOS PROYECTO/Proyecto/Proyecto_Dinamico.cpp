@@ -711,7 +711,7 @@ void GenerarArchivoAnomaliaECG(Sala &sala, InformacionArchivoConfiguracion confi
 int main()
 {
     InformacionArchivoConfiguracion configuraciones[5]; 
-    InformacionArchivoPaciente     pacientes[50];       
+    InformacionArchivoPaciente     pacientes[1000];       
     int totalConfig = 0, totalPacientes = 0;
     int IdPacienteParaArchivo;
 
@@ -739,7 +739,7 @@ int main()
     case 1:
     {
         LeerArchivoConfiguracion(configuraciones, totalConfig, 5);
-        LeerArchivoPacientes(pacientes, totalPacientes, 50);
+        LeerArchivoPacientes(pacientes, totalPacientes, 1000);
         cout << "Los datos se guardaron correctamente" << endl;
 
         cout << "=== CONFIG CARGADA (" << totalConfig << ") ===\n";
@@ -788,3 +788,4 @@ int main()
     LiberarSala(prueba);
     return 0;
 }
+
